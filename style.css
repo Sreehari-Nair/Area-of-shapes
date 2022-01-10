@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body{
+    background-color: aquamarine;
+    font-family: 'PT Sans', sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+#flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+#testbutton{
+    border: solid 2px black;
+    display: inline;
+    padding: 5px;
+    background-color: rgb(98, 98, 221);
+    border-radius: 5px;
+}
+
+.back{
+    border: solid 2px black;
+    border-radius: 5px;
+    display: inline;
+    padding: 5px;
+    background-color: rgb(60, 255, 0);
+}
